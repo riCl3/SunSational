@@ -59,6 +59,9 @@ dependencies {
     debugImplementation(libs.androidx.ui.test.manifest)
 
     val retrofitVersion = "2.11.0"
+    val lottieVersion = "6.6.3"
+
     implementation ("com.squareup.retrofit2:retrofit:$retrofitVersion")
     implementation ("com.squareup.retrofit2:converter-gson:$retrofitVersion")
+    implementation ("com.airbnb.android:lottie-compose:$lottieVersion")
 }
