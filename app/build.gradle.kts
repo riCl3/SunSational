@@ -64,4 +64,5 @@ dependencies {
     implementation ("com.squareup.retrofit2:retrofit:$retrofitVersion")
     implementation ("com.squareup.retrofit2:converter-gson:$retrofitVersion")
     implementation ("com.airbnb.android:lottie-compose:$lottieVersion")
+    implementation("io.coil-kt:coil-compose:2.3.0")
 }
